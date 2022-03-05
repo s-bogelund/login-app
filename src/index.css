@@ -4,7 +4,7 @@
 
 html {
   font-family: sans-serif;
-  background: #fff;
+  background-image: linear-gradient(to right, white, rgb(229, 241, 215));
 }
 
 body {

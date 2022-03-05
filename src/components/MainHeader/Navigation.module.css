@@ -4,6 +4,7 @@
   padding: 0;
   display: flex;
   align-items: center;
+  justify-content: flex-end;
 }
 
 .nav li {
@@ -23,12 +24,12 @@
 
 .nav button {
   font: inherit;
-  background: #dd0db0;
-  border: 1px solid #dd0db0;
+  border: 1px solid #123e53;
+  background: #1c6486d4;
   padding: 0.5rem 1.5rem;
   color: white;
   cursor: pointer;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.26);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.279);
   border-radius: 20px;
 }
 
@@ -38,6 +39,7 @@
 
 .nav button:hover,
 .nav button:active {
-  color: #f3cafb;
+  background: #1c64868e;
+  border-color: #1c6486;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.26);
 }

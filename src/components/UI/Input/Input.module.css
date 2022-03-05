@@ -13,7 +13,8 @@
   .control label {
     font-weight: bold;
     flex: 1;
-    color: #464646;
+    color: white;
+    font-size: 1.2rem;
     margin-bottom: 0.5rem;
   }
   
@@ -27,8 +28,8 @@
   
   .control input:focus {
     outline: none;
-    border-color: #4f005f;
-    background: #f6dbfc;
+    border-color: #aec822;
+    background: #f7f7e5;
   }
   
   .control.invalid input {
